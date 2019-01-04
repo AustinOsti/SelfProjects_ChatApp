@@ -1,0 +1,24 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "A sample chat app using socket.io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AustinOsti/chatApp.git"
+  },
+  "author": "Austin Nyika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AustinOsti/chatApp/issues"
+  },
+  "homepage": "https://github.com/AustinOsti/chatApp#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  }
+}
